@@ -6,6 +6,12 @@ html {
     box-sizing: inherit;
 }
 
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
 /*Header styles and links*/
 header {
     display: grid;
@@ -146,8 +152,11 @@ body.pala-march {
 /*Pride edits*/
 
 body.pride25 {
+    height: 100%;
+    width: 100%;
     margin: 0;
-    background-image: radial-gradient(#E81416, #FFA500, #faeb36, #79c314, #487de7, #4b369d, #70369d );
+    background-image: conic-gradient(from var(--angle),#E81416, #FFA500, #faeb36, #79c314, #487de7, #4b369d, #70369d, #E81416 );
+    animation: 10s spin linear infinite;
 }
 
 .profile {
@@ -279,6 +288,15 @@ footer {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+@keyframes spin{
+from {
+    --angle: 0deg;
+}
+    to {
+        --angle: 360deg;
+    }
 }
 
 @media (max-width: 320px) {
