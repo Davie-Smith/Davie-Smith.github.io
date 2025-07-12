@@ -89,14 +89,31 @@ body {
 }
 
 .thumbnail {
+    display: flex;
+    flex-wrap: wrap;
     width: 10rem;
 }
-.description-text {
+
+.thumbnail-title {
     display: wrap;
     flex-wrap: wrap;
     color: #fff;
-    margin-left: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
     font-family: Helvetica;
+    margin-top: 0;
+    margin-left: 1em;
+}
+
+ .thumbnail-text {
+    display: wrap;
+    flex-wrap: wrap;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: light;
+    font-family: Helvetica;
+    margin-top: 0;
+    margin-left: 1.4em;
 }
 
 body.gallery-list {
