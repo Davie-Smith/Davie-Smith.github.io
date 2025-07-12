@@ -191,6 +191,8 @@ body.pride25 {
     height: 100%;
     overflow: auto;
     background-color: black;
+    background-image: conic-gradient(from var(--angle),#E81416, #FFA500, #faeb36, #79c314, #487de7, #4b369d, #70369d, #E81416 );
+    animation: 10s spin linear infinite;
 }
 
 .modal-content {
