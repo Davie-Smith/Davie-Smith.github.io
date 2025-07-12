@@ -305,7 +305,9 @@ img.hover-shadow {
 
 .previous:hover,
 .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #0fa;
+    opacity: 20%;
+    border-radius: 0.8em;
 }
 
 footer {
