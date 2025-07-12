@@ -401,11 +401,11 @@ from {
 }
     
     .thumbnail-title {
-        font-size: 12px;
+        font-size: 0.625rem;
         font-family: Helvetica;
 }
     .thumbnail-text {
-        font-size: 10px;
+        font-size: 0.5rem;
         font-family: Helvetica;
     }
 
@@ -448,7 +448,7 @@ from {
     .previous,
     .next {
         padding: 8px;
-        font-size: 14px;
+        font-size: 0.875rem;
 }
 }
 
@@ -513,14 +513,14 @@ from {
     .thumbnail {
         width: 8rem;
 }
-    .description-text {
-        font-size: 1em;
-        display: wrap;
-        flex-wrap: wrap;
-        color: #fff;
-        margin-left: 0.8rem;
+    .thumbnail-title {
+        font-size: 0.75rem;
         font-family: Helvetica;
 }
+    .thumbnail-text {
+        font-size: 0.625;
+        font-family: Helvetica;
+    }
 
     .sub-heading-pala {
         font-size: 1em;        
