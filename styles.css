@@ -331,6 +331,51 @@ footer {
     margin-bottom: auto;
 }
 
+/**lost village styling**/
+body.lost-village {
+    background-color: #000;
+}
+
+.gallery {
+    padding: 10px;
+    max-width: 1400px;
+    margin: 0 auto ;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 250px;
+    grid-auto-flow: dense;
+    background: #000;
+    
+}
+
+/**** stretch vertically ****/
+.v-stretch {
+    grid-row: span 2;    
+}
+
+/**** stretch horizontally ****/
+.h-stretch {
+    grid-column: span 2;    
+}
+
+/**** stretch vertically + horizontally****/
+.big-stretch {
+    grid-row: span 2;
+    grid-column: span 2;    
+}
+
+.very-big-stretch {
+    grid-row: span 3;
+    grid-column: span 4;    
+}
+.gallery div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%;
+}
+
 @keyframes spin{
 from {
     --angle: 0deg;
@@ -450,6 +495,23 @@ from {
         padding: 8px;
         font-size: 0.875rem;
 }
+}
+
+@media (max-width: 560px) {
+    .v-stretch{
+        grid-row: span 2;
+    }
+    .h-stretch{
+        grid-column: span 1;
+    }
+    .big-stretch{
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+    .very-big-stretch{
+        grid-row: span 1;
+        grid-column: span 1;
+    }
 }
 
 @media (max-width: 768px) {
