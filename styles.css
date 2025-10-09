@@ -127,39 +127,15 @@ body.pala-march {
     margin: 0;
     background-image: linear-gradient(black, red, green);
 }
+.gallery.pala-page {
+    background-image: linear-gradient(black, red, green);
+
+}
 
 .sub-heading-pala {
     font-family: Helvetica;
     color: #fff;
     margin-left: 2em;
-}
-
-.preview {
-    width: 100%;
-    max-width: 350px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 16px;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 20px 10px;
-}
-
-.row > .col {
-    padding: 0 8px;
-}
-
-.col {
-    float: left;
-    width: 30%;
 }
 
 .four-boys {
@@ -175,66 +151,12 @@ body.pride25 {
     background-image: conic-gradient(from var(--angle),#E81416, #FFA500, #faeb36, #79c314, #487de7, #4b369d, #70369d, #E81416 );
     animation: 10s spin linear infinite;
 }
-
-.profile {
-    max-width: 175px;
-}
-
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding: auto;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: black;
+.gallery.pride-page1 {
     background-image: conic-gradient(from var(--angle),#E81416, #FFA500, #faeb36, #79c314, #487de7, #4b369d, #70369d, #E81416 );
     animation: 10s spin linear infinite;
 }
-
-.modal-content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    padding: 0 0 0 0;
-    width: 80%;
-    max-width: 1200px;
-    overflow-x: scroll;
-
-}
-
-.slide {
-    display: none;
-}
-
-.image-slide {
-    width: 100%;
-}
-
-.modal-preview {
-    width: 100%;
-}
-
-.dots {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-}
-
-img.preview, img.modal-preview {
-    opacity: 1;
-}
-
-img.active, 
-.preview:hover,
-.modal-preview:hover {
-    opacity: 1;
+.profile {
+    max-width: 175px;
 }
 
 img.hover-shadow {
@@ -243,71 +165,6 @@ img.hover-shadow {
 
 .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.close {
-    color: #fff;
-    text-shadow: 
-        0 0 5px #ff4000,
-        0 0 08px #ff4000,
-        0 0 19px #ff4000,
-        0 0 40px #666,
-        0 0 80px #666,
-        0 0 90px #666,
-        0 0 100px #666,
-        0 0 149px #666;
-    opacity: 70%;
-    position: absolute;
-    top: 10px;
-    right: 25px;
-    font-size: 35px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #999;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.previous,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 20px;
-    text-shadow: 
-        0 0 5px #ff4000,
-        0 0 8px #ff4000,
-        0 0 19px #ff4000,
-        0 0 40px #666,
-        0 0 80px #666,
-        0 0 90px #666,
-        0 0 100px #666,
-        0 0 149px #666;
-    opacity: 70%;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-}
-
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-.previous:hover,
-.next:hover {
-    background-color: #0fa;
-    opacity: 20%;
-    border-radius: 0.8em;
 }
 
 footer {
