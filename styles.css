@@ -152,13 +152,19 @@ body.pride25 {
     animation: 10s spin linear infinite;
 }
 .gallery.pride-page1 {
-    background-image: conic-gradient(from var(--angle),#E81416, #FFA500, #faeb36, #79c314, #487de7, #4b369d, #70369d, #E81416 );
+    background-image: conic-gradient(from var(--angle),#E81416, #FFA500, #83d215, #E81416, #487de7, #4b369d, #70369d, );
+    animation: 10s spin linear infinite;
+}
+body.migrant_protest {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: conic-gradient(from var(--angle),#E81416, #FFA500, #83d215, #E81416, #FFA500, #83d215, #E81416 );
     animation: 10s spin linear infinite;
 }
 
 .gallery.migrant-protest {
-    background-image: conic-gradient(from var(--angle),#E81416, #FFA500, #faeb36, #79c314, #E81416, #FFA500, #faeb36, #79c314, #E81416 );
-    animation: 10s spin linear infinite;
+    background: none;
 }
 
 .profile {
@@ -374,6 +380,12 @@ from {
     .very-big-stretch{
         grid-row: span 1;
         grid-column: span 1;
+    }
+    .sub-head {
+        margin-top: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-left: auto;
     }
 }
 
