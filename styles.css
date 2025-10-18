@@ -151,10 +151,12 @@ body.pride25 {
     background-image: conic-gradient(from var(--angle),#E81416, #FFA500, #faeb36, #79c314, #487de7, #4b369d, #70369d, #E81416 );
     animation: 10s spin linear infinite;
 }
+
 .gallery.pride-page1 {
-    background-image: conic-gradient(from var(--angle),#E81416, #FFA500, #83d215, #E81416, #487de7, #4b369d, #70369d, );
-    animation: 10s spin linear infinite;
+    background: none;
 }
+
+/*Migrant protest edits*/
 body.migrant_protest {
     height: 100%;
     width: 100%;
