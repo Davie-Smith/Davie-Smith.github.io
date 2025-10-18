@@ -321,10 +321,6 @@
             console.log('Second lightbox opened');
         };
 
-        fsLightboxInstances['third-lightbox'].props.onOpen = () => {
-            console.log('Second lightbox opened');
-        };
-
         var lightbox = new FsLightbox();
             lightbox.props.sources = ["/Image.jpg", "/Video.mp4"];
             lightbox.open();
