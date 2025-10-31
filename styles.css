@@ -161,8 +161,7 @@ body.migrant_protest {
     height: 100%;
     width: 100%;
     margin: 0;
-    background-image: conic-gradient(from var(--angle),#E81416, #FFA500, #83d215, #E81416, #FFA500, #83d215, #E81416 );
-    animation: 10s spin linear infinite;
+    background-image: linear-gradient(to right, #E81416, gold, #83d215);
 }
 
 .gallery.migrant-protest {
