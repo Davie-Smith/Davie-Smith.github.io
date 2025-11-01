@@ -180,6 +180,30 @@ img.hover-shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/*trottic pond edits*/
+body.trottic-ponds {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #fe0101;
+}
+
+.gallery.trottic-ponds {
+    background: none;
+}
+
+.profile {
+    max-width: 175px;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
