@@ -345,7 +345,7 @@ body.lost-village {
 
   section.display-box {
     margin: 0;
-    height: 580px;
+    height: auto;
   }
 
   .thumbnail {
@@ -480,7 +480,7 @@ body.lost-village {
 
   .display-box {
     margin: 0;
-    height: 1024px;
+    height: auto;
   }
 
   .thumbnail {
