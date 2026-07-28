@@ -23,6 +23,17 @@ header {
   border-bottom: 2px solid red;
 }
 
+.bmc-btn-container {
+  width: 210px;
+  height: 60px;
+}
+
+.bmc-button {
+    width: 210px;
+    height: 60px;
+
+}
+
 .name-title {
   font-family: Helvetica;
   padding-top: 1em;
@@ -223,10 +234,20 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   border-top: 2px solid red;
+  height: 20%;
+  text-align: center;
+
+  /*@media (width >= calc(700 / 16 * 1fr)) {
+        height: 10%;
+    }*/
+
 }
 
 .contact-shit {
   color: #fff;
+  font-style: italic;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
   margin-left: auto;
   margin-right: auto;
 }
@@ -239,6 +260,8 @@ footer {
   margin-top: auto;
   margin-bottom: auto;
 }
+
+
 
 /**lost village styling**/
 body.lost-village {
