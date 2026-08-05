@@ -18,10 +18,26 @@ html {
 /*Header styles and links*/
 header {
   display: grid;
+  width: 100%;
+  height: 6rem;
   grid-template-columns: 1fr 1fr 1fr;
-  height: 10rem;
+  grid-template-rows: 1fr;
+  grid-template-areas: "name-title gallery-link logo";
+  padding-top: auto;
+  padding-bottom: auto;
   background-color: #fff;
-  border-bottom: 2px solid red;
+  border-bottom: 1px solid red;
+  text-align: center;
+
+  @media (width >= calc(700 / 16 * 1rem)) {
+    height: 7rem;
+    font-size: 1rem;
+  }
+
+  @media (width >= calc(1000 / 16 * 1rem)) {
+    height: 8rem;
+    font-size: 1.2rem;
+  }
 }
 
 .bmc-btn-container {
@@ -35,16 +51,37 @@ header {
 }
 
 .name-title {
+  grid-area: name-title;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1rem;
+  font-size: 1rem;
   font-family: Helvetica;
-  padding-top: 1em;
-  margin-left: 1em;
+
+   @media (width >= calc(700 / 16 * 1rem)) {
+    font-size: 1.2rem;
+  }
+
+  @media (width >= calc(1000 / 16 * 1rem)) {
+    font-size: 1.8rem;
+  }
 }
 
 .gallery-link {
+  grid-area: gallery-link;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1rem;
+  font-size: 1rem;
   font-family: ariel;
-  padding-top: 1.5em;
-  margin-left: auto;
-  margin-right: auto;
+
+  @media (width >= calc(700 / 16 * 1rem)) {
+    font-size: 1.2rem;
+  }
+
+  @media (width >= calc(1000 / 16 * 1rem)) {
+    font-size: 1.8rem;
+  }
 }
 
 a {
@@ -53,9 +90,18 @@ a {
 }
 
 .logo {
-  width: 12rem;
+  grid-area: logo;
+  align-items: center;
+  width: 8rem;
   float: right;
-  padding-top: 1em;
+
+  @media (width >= calc(700 / 16 * 1rem)) {
+    width: 10rem;
+  }
+
+  @media (width >= calc(1000 / 16 * 1rem)) {
+    width: 12rem;
+  }
 }
 
 body {
@@ -360,7 +406,7 @@ body.lost-village {
 }
 
 @media (max-width: 320px) {
-  header {
+  /*header {
     width: 100%;
     height: 5rem;
     border-bottom: 1px solid red;
@@ -377,7 +423,8 @@ body.lost-village {
 
   .logo {
     width: 6rem;
-  }
+  }*/
+
   .home-page {
     width: 100%;
     height: 100%;
@@ -486,7 +533,7 @@ body.lost-village {
 }
 
 @media (max-width: 768px) {
-  header {
+  /*header {
     width: 100%;
     height: 5rem;
     border-bottom: 1px solid red;
@@ -503,7 +550,7 @@ body.lost-village {
 
   .logo {
     width: 6rem;
-  }
+  }*/
   .home-page {
     width: 100%;
     height: 100%;
