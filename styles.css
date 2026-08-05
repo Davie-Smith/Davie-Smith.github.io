@@ -111,6 +111,8 @@ body {
 
 .home-page {
   display: grid;
+  width: 100%;
+  height: 100%;
   grid-template-columns: 1fr;
   background-image: radial-gradient(rgb(57, 55, 55) 4%, black);
 }
@@ -406,29 +408,6 @@ body.lost-village {
 }
 
 @media (max-width: 320px) {
-  /*header {
-    width: 100%;
-    height: 5rem;
-    border-bottom: 1px solid red;
-  }
-  .name-title {
-    font-family: Helvetica;
-    font-size: 1em;
-    margin-top: 1.5em;
-    margin-left: 0.2em;
-  }
-  .gallery-link {
-    font-size: 1em;
-  }
-
-  .logo {
-    width: 6rem;
-  }*/
-
-  .home-page {
-    width: 100%;
-    height: 100%;
-  }
 
   .splash-text {
     margin-left: 0.2em;
@@ -533,29 +512,8 @@ body.lost-village {
 }
 
 @media (max-width: 768px) {
-  /*header {
-    width: 100%;
-    height: 5rem;
-    border-bottom: 1px solid red;
-  }
-  .name-title {
-    font-family: Helvetica;
-    font-size: 1em;
-    margin-top: 1.5em;
-    margin-left: 0.2em;
-  }
-  .gallery-link {
-    font-size: 1em;
-  }
 
-  .logo {
-    width: 6rem;
-  }*/
-  .home-page {
-    width: 100%;
-    height: 100%;
-  }
-
+ 
   .splash-text {
     margin-left: 0.2em;
     font-size: 1em;
