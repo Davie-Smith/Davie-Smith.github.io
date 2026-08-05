@@ -240,7 +240,7 @@ footer {
     ". copyright .";
   border-top: 1px solid red;
   height: 0.5rem;
-  padding: 8px;
+  padding: auto;
   text-align: center;
   gap: 10px;
 
@@ -251,7 +251,6 @@ footer {
 
   @media (width >= calc(1000 / 16 * 1rem)) {
     height: 2rem;
-    font-size: 1.5rem;
   }
 }
 
@@ -265,11 +264,11 @@ footer {
   align-items: center;
 
   @media (width >= calc(700 / 16 * 1rem)) {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   @media (width >= calc(1000 / 16 * 1rem)) {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -282,11 +281,11 @@ footer {
   margin-right: auto;
 
   @media (width >= calc(700 / 16 * 1rem)) {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   @media (width >= calc(1000 / 16 * 1rem)) {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 }
 
