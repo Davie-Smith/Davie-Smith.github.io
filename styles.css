@@ -30,8 +30,8 @@ header {
 }
 
 .bmc-button {
-    width: 190px;
-    height: 40px;
+  width: 190px;
+  height: 40px;
 }
 
 .name-title {
@@ -235,24 +235,24 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1rem 1rem;
-  grid-template-areas: 
-  'email . wwa'
-  '. copyright .';
+  grid-template-areas:
+    "email . wwa"
+    ". copyright .";
   border-top: 1px solid red;
   height: 0.5rem;
   padding: 8px;
   text-align: center;
   gap: 10px;
 
-    @media (width >= calc(700 / 16 * 1fr)) {
-        border-top: 2px solid red;
-          height: 1rem;
-      }
+  @media (width >= calc(700 / 16 * 1rem)) {
+    border-top: 2px solid red;
+    height: 1rem;
+  }
 
-    @media (width >= calc(1000 / 16 * 1fr)) {
-        height: 2rem;
-        font-size: 1.5rem;
-      }
+  @media (width >= calc(1000 / 16 * 1rem)) {
+    height: 2rem;
+    font-size: 1.5rem;
+  }
 }
 
 .email {
@@ -264,13 +264,13 @@ footer {
   margin-right: auto;
   align-items: center;
 
-      @media (width >= calc(700 / 16 * 1fr)) {
-          font-size: 1.5rem;
-      }
+  @media (width >= calc(700 / 16 * 1rem)) {
+    font-size: 1.5rem;
+  }
 
-      @media (width >= calc(1000 / 16 * 1fr)) {
-          font-size: 2rem;
-      }
+  @media (width >= calc(1000 / 16 * 1rem)) {
+    font-size: 2rem;
+  }
 }
 
 .wwa {
@@ -281,13 +281,13 @@ footer {
   margin-left: auto;
   margin-right: auto;
 
-      @media (width >= calc(700 / 16 * 1fr)) {
-          font-size: 1.5rem;
-      }
+  @media (width >= calc(700 / 16 * 1rem)) {
+    font-size: 1.5rem;
+  }
 
-      @media (width >= calc(1000 / 16 * 1fr)) {
-          font-size: 2rem;
-      }
+  @media (width >= calc(1000 / 16 * 1rem)) {
+    font-size: 2rem;
+  }
 }
 
 .copyright {
@@ -296,19 +296,16 @@ footer {
   font-size: 0.6rem;
   margin-bottom: 0;
 
-      @media (width >= calc(700 / 16 * 1fr)) {
-          margin-left: auto;
-          margin-right: auto;
-      }
+  @media (width >= calc(700 / 16 * 1rem)) {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-      @media (width >= calc(1000 / 16 * 1fr)) {
-          margin-left: auto;
-          margin-right: auto;
-      }
-
+  @media (width >= calc(1000 / 16 * 1rem)) {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-
-
 
 /**lost village styling**/
 body.lost-village {
@@ -395,7 +392,6 @@ body.lost-village {
   .splash-image {
     width: 100%;
   }
-  
 
   .gal-link {
     width: 100%;
@@ -416,7 +412,7 @@ body.lost-village {
   }
 
   .thumbnail-title {
-    font-size: 0.625rem;
+    font-size: 0.6rem;
     font-family: Helvetica;
   }
   .thumbnail-text {
@@ -547,7 +543,7 @@ body.lost-village {
     font-family: Helvetica;
   }
   .thumbnail-text {
-    font-size: 0.625;
+    font-size: 0.6rem;
     font-family: Helvetica;
   }
 
