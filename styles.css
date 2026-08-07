@@ -178,13 +178,12 @@ body {
     width: 100%;
     height: auto;
     border: 1px solid #fff;
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
-    padding-left: 0.8rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.4rem;
   }
 
   @media (width >= calc(1000 / 16 * 1rem)) {
-    display: flex;
     align-items: center;
     width: 100%;
     height: auto; 
@@ -197,28 +196,46 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 10rem;
+  height: auto;
 }
 
 .thumbnail-title {
   display: wrap;
   flex-wrap: wrap;
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   font-weight: bold;
   font-family: Helvetica;
   margin-top: 0;
-  margin-left: 1em;
+  margin-left: 0.8rem;
+  line-height: 0.9rem;
+
+  @media (width >= calc(700 / 16 * 1rem)) {
+    font-size: 0.9rem;
+  }
+
+  @media (width >= calc(1000 / 16 * 1rem)) {
+    font-size: 1rem;
+  }
 }
 
 .thumbnail-text {
   display: wrap;
   flex-wrap: wrap;
   color: #fff;
-  font-size: 1rem;
-  font-weight: light;
+  font-size: 0.8rem;
+  font-weight: very-light;
   font-family: Helvetica;
   margin-top: 0;
-  margin-left: 1.4em;
+  margin-left: 1rem;
+
+  @media (width >= calc(700 / 16 * 1rem)) {
+    font-size: 0.9rem;
+  }
+
+  @media (width >= calc(1000 / 16 * 1rem)) {
+    font-size: 1rem;
+  }
 }
 
 body.gallery-list {
