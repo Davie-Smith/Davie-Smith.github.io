@@ -190,8 +190,6 @@ body {
   }
 }
 
-
-
 .thumbnail {
   display: flex;
   flex-wrap: wrap;
@@ -206,7 +204,6 @@ body {
   font-size: 0.8rem;
   font-weight: bold;
   font-family: Helvetica;
-  margin-top: 0;
   margin-left: 0.8rem;
   line-height: 0.9rem;
 
@@ -469,42 +466,6 @@ body.lost-village {
 
 @media (max-width: 320px) {
 
-  /*.splash-text {
-    margin-left: 0.2em;
-    font-size: 1em;
-  }
-
-  .splash-image {
-    width: 100%;
-  }*/
-
-  /*.gal-link {
-    width: 100%;
-    height: 10em;
-    margin: 0.2em;
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
-    padding-left: 0.2em;
-  }*/
-
-  /*section.display-box {
-    margin: 0;
-    height: auto;
-  }*/
-
-  /*.thumbnail {
-    width: 2rem;
-  }
-
-  .thumbnail-title {
-    font-size: 0.6rem;
-    font-family: Helvetica;
-  }
-  .thumbnail-text {
-    font-size: 0.5rem;
-    font-family: Helvetica;
-  }*/
-
   .sub-heading-pala {
     font-size: 0.6em;
     color: #fff;
@@ -572,44 +533,6 @@ body.lost-village {
 }
 
 @media (max-width: 768px) {
-
- 
-  /*.splash-text {
-    margin-left: 0.2em;
-    font-size: 1em;
-  }
-
-  .splash-image {
-    width: 100%;
-  }*/
-
-  /*.gal-link {
-    width: 100%;
-    height: 8em;
-    margin: 0;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-top: 0.4em;
-    padding-bottom: 0.4em;
-    padding-left: 0.8em;
-  }*/
-
-  /*.display-box {
-    margin: 0;
-    height: auto;
-  }*/
-
-  /*.thumbnail {
-    width: 8rem;
-  }
-  .thumbnail-title {
-    font-size: 0.75rem;
-    font-family: Helvetica;
-  }
-  .thumbnail-text {
-    font-size: 0.6rem;
-    font-family: Helvetica;
-  }*/
 
   .sub-heading-pala {
     font-size: 1em;
