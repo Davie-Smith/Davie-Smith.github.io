@@ -174,9 +174,9 @@ body {
 
 .thumbnail-title {
   display: grid;
-  color: #fff;
+  color: #ffffffd6;
   font-size: 0.8rem;
-  font-weight: bold;
+  font-weight: light;
   font-family: Helvetica;
   margin-left: 0.5rem;
 
@@ -191,7 +191,7 @@ body {
 
 .thumbnail-text {
   display: grid;
-  color: #fff;
+  color: #ffffffc2;
   font-size: 0.8rem;
   font-weight: very-light;
   font-family: Helvetica;
