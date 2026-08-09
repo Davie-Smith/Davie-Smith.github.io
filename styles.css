@@ -32,6 +32,9 @@ header {
   @media (width >= calc(700 / 16 * 1rem)) {
     height: 7rem;
     font-size: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid red;
+
   }
 
   @media (width >= calc(1000 / 16 * 1rem)) {
@@ -146,65 +149,36 @@ body {
 /* gallery link page*/
 .display {
   display: grid;
-  grid-template-columns: 1fr;
-  width: 100% - 2rem;
-  height: auto;
-
-  @media (width >= calc(700 / 16 * 1rem)) {
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-  }
-
-  @media (width >= calc(1000 / 16 * 1rem)) {
-    grid-template-columns: 1fr 1fr;
-  }
+  grid-template-columns: repeat(auto-fit , minmax(170px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
 }
 
 .gal-link {
-  display: flex;
-  align-items: center;
-  width: 100vw;
-  height: auto;
-  border: 1px solid #fff;
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
-  padding-left: 0.8rem;
-  margin-top: 0.25em;
-  margin-bottom: 0.25em;
-
-  @media (width >= calc(700 / 16 * 1rem)) {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    border: 1px solid #fff;
-    padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
-    padding-left: 0.4rem;
-  }
-
-  @media (width >= calc(1000 / 16 * 1rem)) {
-    align-items: center;
-    width: 100%;
-    height: auto; 
-  }
+  display: grid;
+  grid-row: span 3;
+  grid-template-rows: subgrid;
 }
 
 .thumbnail {
-  display: flex;
-  flex-wrap: wrap;
-  width: 10rem;
-  height: auto;
+  inline-size: 100%;
+  block-size: auto;
+  object-fit: cover;
+
+  @media (width >= calc(700 / 16 * 1rem)) {
+    inline-size: 100%;
+    block-size: 120px;
+    object-fit: cover;
+  }  
 }
 
 .thumbnail-title {
-  display: wrap;
-  flex-wrap: wrap;
+  display: grid;
   color: #fff;
   font-size: 0.8rem;
   font-weight: bold;
   font-family: Helvetica;
-  margin-left: 0.8rem;
+  margin-left: 0.5rem;
   line-height: 0.9rem;
 
   @media (width >= calc(700 / 16 * 1rem)) {
@@ -217,14 +191,13 @@ body {
 }
 
 .thumbnail-text {
-  display: wrap;
-  flex-wrap: wrap;
+  display: grid;
   color: #fff;
   font-size: 0.8rem;
   font-weight: very-light;
   font-family: Helvetica;
   margin-top: 0;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 
   @media (width >= calc(700 / 16 * 1rem)) {
     font-size: 0.9rem;
