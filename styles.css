@@ -179,7 +179,6 @@ body {
   font-weight: bold;
   font-family: Helvetica;
   margin-left: 0.5rem;
-  line-height: 0.9rem;
 
   @media (width >= calc(700 / 16 * 1rem)) {
     font-size: 0.9rem;
