@@ -321,7 +321,7 @@ footer {
   grid-template-rows: 1rem 1rem;
   grid-template-areas:
     "email . wwa"
-    ". copyright .";
+    "message copyright .";
   border-top: 1px solid red;
   height: 0.5rem;
   padding: auto;
@@ -373,6 +373,21 @@ footer {
   }
 }
 
+.message {
+  grid-area: message;
+  color: #fff;
+  font-size: 0.6rem;
+  margin-right: auto;
+
+  @media (width >= calc(700 / 16 * 1rem)) {
+    font-size: 0.8rem;
+    margin-left: auto;
+  }
+
+  @media (width >= calc(1000 / 16 * 1rem)) {
+    font-size: 1rem;
+  }
+}
 .copyright {
   grid-area: copyright;
   color: #fff;
