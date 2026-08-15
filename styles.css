@@ -315,6 +315,16 @@ img.hover-shadow {
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.sub-head {
+  font-family: Helvetica;
+  color: #fff;
+  margin-left: 2em;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+
+
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
